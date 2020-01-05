@@ -1,0 +1,38 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-54cb3d6:16f763e1ae9:-7ff9</id>
+  <name>Project</name>
+  <mode>SINGLE</mode>
+  <title>Project Layers</title>
+  <workspace>
+    <id>WorkspaceInfoImpl--2ed93f6f:16f71f737b5:-7fff</id>
+  </workspace>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-54cb3d6:16f763e1ae9:-7ffc</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-54cb3d6:16f763e1ae9:-7ffa</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-dae7a6a:16f76b449a3:-7ffe</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fdf</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--570ae188:124761b8d78:-7fe3</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>514599.7640822623</minx>
+    <maxx>515130.61829229235</maxx>
+    <miny>5040130.76997175</miny>
+    <maxy>5040508.2713373555</maxy>
+    <crs class="projected">EPSG:32632</crs>
+  </bounds>
+</layerGroup>
