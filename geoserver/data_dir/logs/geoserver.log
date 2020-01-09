@@ -11300,3 +11300,2201 @@ Request: getFeature
 2020-01-09 18:17:47,917 INFO [seed.SeederThreadPoolExecutor] - Initiating shut down for running and pending seed tasks...
 2020-01-09 18:17:47,917 INFO [seed.SeederThreadPoolExecutor] - Seeder thread pool executor shut down complete.
 2020-01-09 18:17:47,917 INFO [storage.DefaultStorageBroker] - Destroying StorageBroker
+2020-01-09 18:33:03,372 INFO [org.geoserver] - GeoServer configuration lock is enabled
+2020-01-09 18:33:03,450 INFO [org.geoserver] - Loading catalog...
+2020-01-09 18:33:03,560 INFO [org.geoserver] - Loaded style 'burg'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'cite_lakes'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'dem'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'capitals'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'generic'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'giant_polygon'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'grass'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'green'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'poi'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'line'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'polygon'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'point'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'pophatch'
+2020-01-09 18:33:03,575 INFO [org.geoserver] - Loaded style 'poly_landmarks'
+2020-01-09 18:33:03,591 INFO [org.geoserver] - Loaded style 'population'
+2020-01-09 18:33:03,591 INFO [org.geoserver] - Loaded style 'rain'
+2020-01-09 18:33:03,591 INFO [org.geoserver] - Loaded style 'restricted'
+2020-01-09 18:33:03,591 INFO [org.geoserver] - Loaded style 'raster'
+2020-01-09 18:33:03,591 INFO [org.geoserver] - Loaded style 'simple_roads'
+2020-01-09 18:33:03,591 INFO [org.geoserver] - Loaded style 'tiger_roads'
+2020-01-09 18:33:03,591 INFO [org.geoserver] - Loaded style 'simple_streams'
+2020-01-09 18:33:03,607 INFO [org.geoserver] - Loaded default workspace Gis-Lab
+2020-01-09 18:33:03,638 INFO [org.geoserver] - Loaded workspace 'nurc'
+2020-01-09 18:33:03,653 INFO [org.geoserver] - Loaded workspace 'Gis-Lab'
+2020-01-09 18:33:03,653 INFO [org.geoserver] - Loaded workspace 'cite'
+2020-01-09 18:33:03,653 INFO [org.geoserver] - Loaded workspace 'it.geosolutions'
+2020-01-09 18:33:03,653 INFO [org.geoserver] - Loaded workspace 'sf'
+2020-01-09 18:33:03,653 INFO [org.geoserver] - Loaded workspace 'sde'
+2020-01-09 18:33:03,653 INFO [org.geoserver] - Loaded workspace 'topp'
+2020-01-09 18:33:03,669 INFO [org.geoserver] - Loaded workspace 'tiger'
+2020-01-09 18:33:04,538 INFO [org.geoserver] - Loaded data store 'computedLayers', enabled
+2020-01-09 18:33:05,963 INFO [org.geoserver] - Loaded feature type 'points_street_matched', enabled
+2020-01-09 18:33:05,979 INFO [org.geoserver] - Loaded layer 'points_street_matched'
+2020-01-09 18:33:05,995 INFO [org.geoserver] - Loaded feature type 'roads_PLOS-computed', enabled
+2020-01-09 18:33:05,995 INFO [org.geoserver] - Loaded layer 'roads_PLOS-computed'
+2020-01-09 18:33:05,995 INFO [org.geoserver] - Loaded feature type 'niguarda_roads', enabled
+2020-01-09 18:33:05,995 INFO [org.geoserver] - Loaded layer 'niguarda_roads'
+2020-01-09 18:33:06,026 INFO [org.geoserver] - Loaded layer group 'Project'
+2020-01-09 18:33:06,042 INFO [org.geoserver] - Loaded coverage store 'arcGridSample', enabled
+2020-01-09 18:33:06,091 INFO [org.geoserver] - Loaded coverage 'Arc_Sample', enabled
+2020-01-09 18:33:06,104 INFO [org.geoserver] - Loaded layer 'Arc_Sample'
+2020-01-09 18:33:06,104 INFO [org.geoserver] - Loaded coverage store 'img_sample2', enabled
+2020-01-09 18:33:06,120 INFO [org.geoserver] - Loaded coverage 'Pk50095', enabled
+2020-01-09 18:33:06,120 INFO [org.geoserver] - Loaded layer 'Pk50095'
+2020-01-09 18:33:06,137 INFO [org.geoserver] - Loaded coverage store 'worldImageSample', enabled
+2020-01-09 18:33:06,158 INFO [org.geoserver] - Loaded coverage 'Img_Sample', enabled
+2020-01-09 18:33:06,160 INFO [org.geoserver] - Loaded layer 'Img_Sample'
+2020-01-09 18:33:06,162 INFO [org.geoserver] - Loaded coverage store 'mosaic', enabled
+2020-01-09 18:33:06,184 INFO [org.geoserver] - Loaded coverage 'mosaic', enabled
+2020-01-09 18:33:06,186 INFO [org.geoserver] - Loaded layer 'mosaic'
+2020-01-09 18:33:06,231 INFO [org.geoserver] - Loaded data store 'sf', enabled
+2020-01-09 18:33:06,284 INFO [org.geoserver] - Loaded feature type 'archsites', enabled
+2020-01-09 18:33:06,284 INFO [org.geoserver] - Loaded layer 'archsites'
+2020-01-09 18:33:06,284 INFO [org.geoserver] - Loaded feature type 'restricted', enabled
+2020-01-09 18:33:06,284 INFO [org.geoserver] - Loaded layer 'restricted'
+2020-01-09 18:33:06,284 INFO [org.geoserver] - Loaded feature type 'bugsites', enabled
+2020-01-09 18:33:06,300 INFO [org.geoserver] - Loaded layer 'bugsites'
+2020-01-09 18:33:06,300 INFO [org.geoserver] - Loaded feature type 'roads', enabled
+2020-01-09 18:33:06,300 INFO [org.geoserver] - Loaded layer 'roads'
+2020-01-09 18:33:06,300 INFO [org.geoserver] - Loaded feature type 'streams', enabled
+2020-01-09 18:33:06,300 INFO [org.geoserver] - Loaded layer 'streams'
+2020-01-09 18:33:06,316 INFO [org.geoserver] - Loaded coverage store 'sfdem', enabled
+2020-01-09 18:33:06,332 INFO [org.geoserver] - Loaded coverage 'sfdem', enabled
+2020-01-09 18:33:06,332 INFO [org.geoserver] - Loaded layer 'sfdem'
+2020-01-09 18:33:06,347 INFO [org.geoserver] - Loaded data store 'nyc', enabled
+2020-01-09 18:33:06,378 INFO [org.geoserver] - Loaded feature type 'poly_landmarks', enabled
+2020-01-09 18:33:06,378 INFO [org.geoserver] - Loaded layer 'poly_landmarks'
+2020-01-09 18:33:06,378 INFO [org.geoserver] - Loaded feature type 'tiger_roads', enabled
+2020-01-09 18:33:06,378 INFO [org.geoserver] - Loaded layer 'tiger_roads'
+2020-01-09 18:33:06,378 INFO [org.geoserver] - Loaded feature type 'poi', enabled
+2020-01-09 18:33:06,394 INFO [org.geoserver] - Loaded layer 'poi'
+2020-01-09 18:33:06,394 INFO [org.geoserver] - Loaded feature type 'giant_polygon', enabled
+2020-01-09 18:33:06,394 INFO [org.geoserver] - Loaded layer 'giant_polygon'
+2020-01-09 18:33:06,410 INFO [org.geoserver] - Loaded data store 'states_shapefile', enabled
+2020-01-09 18:33:06,425 INFO [org.geoserver] - Loaded feature type 'states', enabled
+2020-01-09 18:33:06,425 INFO [org.geoserver] - Loaded layer 'states'
+2020-01-09 18:33:06,425 INFO [org.geoserver] - Loaded data store 'taz_shapes', enabled
+2020-01-09 18:33:06,441 INFO [org.geoserver] - Loaded feature type 'tasmania_cities', enabled
+2020-01-09 18:33:06,441 INFO [org.geoserver] - Loaded layer 'tasmania_cities'
+2020-01-09 18:33:06,441 INFO [org.geoserver] - Loaded feature type 'tasmania_roads', enabled
+2020-01-09 18:33:06,457 INFO [org.geoserver] - Loaded layer 'tasmania_roads'
+2020-01-09 18:33:06,457 INFO [org.geoserver] - Loaded feature type 'tasmania_water_bodies', enabled
+2020-01-09 18:33:06,457 INFO [org.geoserver] - Loaded layer 'tasmania_water_bodies'
+2020-01-09 18:33:06,457 INFO [org.geoserver] - Loaded feature type 'tasmania_state_boundaries', enabled
+2020-01-09 18:33:06,457 INFO [org.geoserver] - Loaded layer 'tasmania_state_boundaries'
+2020-01-09 18:33:06,472 INFO [org.geoserver] - Loaded layer group 'tiger-ny'
+2020-01-09 18:33:06,472 INFO [org.geoserver] - Loaded layer group 'spearfish'
+2020-01-09 18:33:06,472 INFO [org.geoserver] - Loaded layer group 'tasmania'
+2020-01-09 18:33:06,472 INFO [org.geoserver] - Read catalog in 3.025 s
+2020-01-09 18:33:06,597 INFO [org.geoserver] - Loaded service 'WMTSInfoImpl-1b83fa8e:16f8b5deea5:-8000', enabled
+2020-01-09 18:33:06,628 INFO [org.geoserver] - Loaded service 'wcs', enabled
+2020-01-09 18:33:06,644 INFO [org.geoserver] - Loaded service 'wfs', enabled
+2020-01-09 18:33:06,675 INFO [org.geoserver] - Loaded service 'wms', enabled
+2020-01-09 18:33:06,707 INFO [org.geoserver] - Loaded service 'WCSInfoImpl--2ed93f6f:16f71f737b5:-7ffd', enabled
+2020-01-09 18:33:06,722 INFO [org.geoserver] - Loaded service 'WFSInfoImpl--2ed93f6f:16f71f737b5:-7ffc', enabled
+2020-01-09 18:33:06,753 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache.xml' in directory 'C:\Users\gianm\OneDrive - Politecnico di Milano\Desktop\PoliMi\Magistrale\II Anno\Primo Semestre\Geographic Information System\Lab\GIS-Lab\geoserver\data_dir\gwc'.
+2020-01-09 18:33:06,832 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-01-09 18:33:06,832 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-01-09 18:33:06,832 INFO [config.GeoserverXMLResourceProvider] - Found configuration file in gwc
+2020-01-09 18:33:06,894 WARN [config.XMLConfiguration] - ********************************************************************************
+2020-01-09 18:33:06,894 WARN [config.XMLConfiguration] - *** GWC configuration validation error: cvc-elt.1: impossibile trovare la dichiarazione dell'elemento "gwcConfiguration".
+2020-01-09 18:33:06,894 WARN [config.XMLConfiguration] - *** Will try to use configuration anyway. Please check the order of declared elements against the schema.
+2020-01-09 18:33:06,910 WARN [config.XMLConfiguration] - ********************************************************************************
+2020-01-09 18:33:06,988 INFO [config.XMLConfiguration] - Initializing GridSets from gwc
+2020-01-09 18:33:06,988 INFO [config.XMLConfiguration] - Initializing layers from gwc
+2020-01-09 18:33:07,050 INFO [gwc.layer] - Initializing GWC configuration based on GeoServer's Catalog
+2020-01-09 18:33:07,050 INFO [gwc.layer] - GeoServer TileLayer store base directory is: gwc-layers
+2020-01-09 18:33:07,050 INFO [gwc.layer] - Loading tile layers from gwc-layers
+2020-01-09 18:33:07,171 INFO [gwc.layer] - Loaded 26 tile layers in 108.0 ms
+2020-01-09 18:33:07,182 INFO [storage.BlobStoreAggregator] - BlobStoreConfiguration gwc contained no blob store infos.
+2020-01-09 18:33:07,195 INFO [storage.DefaultStorageFinder] - ****************************************************************************************************************************************************************************************************************************************************************
+2020-01-09 18:33:07,195 INFO [storage.DefaultStorageFinder] - *** Found Java environment variable GEOSERVER_DATA_DIR set to C:\Users\gianm\OneDrive - Politecnico di Milano\Desktop\PoliMi\Magistrale\II Anno\Primo Semestre\Geographic Information System\Lab\GIS-Lab\geoserver\data_dir, using it as the default prefix. ***
+2020-01-09 18:33:07,196 INFO [storage.DefaultStorageFinder] - ****************************************************************************************************************************************************************************************************************************************************************
+2020-01-09 18:33:07,323 INFO [gwc.config] - Initializing GeoServer specific GWC configuration from gwc-gs.xml
+2020-01-09 18:33:07,410 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota.xml' in directory 'C:\Users\gianm\OneDrive - Politecnico di Milano\Desktop\PoliMi\Magistrale\II Anno\Primo Semestre\Geographic Information System\Lab\GIS-Lab\geoserver\data_dir\gwc'.
+2020-01-09 18:33:07,427 INFO [config.GeoserverXMLResourceProvider] - Will look for 'geowebcache-diskquota-jdbc.xml' in directory 'C:\Users\gianm\OneDrive - Politecnico di Milano\Desktop\PoliMi\Magistrale\II Anno\Primo Semestre\Geographic Information System\Lab\GIS-Lab\geoserver\data_dir\gwc'.
+2020-01-09 18:33:07,431 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2020-01-09 18:33:07,447 INFO [diskquota.ConfigLoader] - DiskQuota configuration is not readable: gwc/geowebcache-diskquota.xml
+2020-01-09 18:33:07,449 INFO [diskquota.DiskQuotaMonitor] - Setting up disk quota periodic enforcement task
+2020-01-09 18:33:07,450 INFO [diskquota.DiskQuotaMonitor] - 0 layers configured with their own quotas. 
+2020-01-09 18:33:07,473 INFO [diskquota.DiskQuotaMonitor] - 26 layers attached to global quota 500,0 MB
+2020-01-09 18:33:07,528 INFO [diskquota.DiskQuotaMonitor] - Disk quota periodic enforcement task set up every 10 SECONDS
+2020-01-09 18:33:07,726 INFO [geowebcache.GeoWebCacheDispatcher] - Invoked setServletPrefix(gwc)
+2020-01-09 18:33:07,742 INFO [georss.GeoRSSPoller] - Initializing GeoRSS poller in a background job...
+2020-01-09 18:33:07,758 INFO [georss.GeoRSSPoller] - No enabled GeoRSS feeds found, poller will not run.
+2020-01-09 18:33:07,883 INFO [wms.WMSService] - Will NOT recombine tiles for non-tiling clients.
+2020-01-09 18:33:07,883 INFO [wms.WMSService] - Will proxy requests to backend that are not getmap or getcapabilities.
+2020-01-09 18:33:11,953 WARN [gce.imagemosaic] - Unable to set ordering between tiff readers spi
+2020-01-09 18:33:18,594 INFO [geoserver.security] - Start reloading user/groups for service named default
+2020-01-09 18:33:18,625 INFO [geoserver.security] - Reloading user/groups successful for service named default
+2020-01-09 18:33:18,875 INFO [geoserver.security] - AuthenticationCache Initialized with 1000 Max Entries, 300 seconds idle time, 600 seconds time to live and 3 concurrency level
+2020-01-09 18:33:18,875 INFO [geoserver.security] - AuthenticationCache Eviction Task created to run every 600 seconds
+2020-01-09 18:33:30,350 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:33:30,350 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:33:30,350 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:33:31,521 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@4cde1b7e (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:33:31,521 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@730cdd61 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:33:31,521 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@2cb01492 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:33:31,625 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:33:31,625 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:33:31,625 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:37:30,640 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:37:30,645 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:37:30,642 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:37:30,664 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@64badc35 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:37:30,669 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:37:30,670 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@3152157f (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:37:30,678 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:37:30,682 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@31c8bc7e (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:37:30,693 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:40:09,548 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:40:09,555 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:40:09,562 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:40:09,562 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@4cde05f8 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:40:09,580 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:40:09,580 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@52f97dde (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:40:09,586 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@51fc3c31 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:40:09,627 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:40:09,615 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:40:11,206 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:40:11,210 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:40:11,216 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:40:11,220 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@4285e5f5 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:40:11,223 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:40:11,226 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@165fce9c (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:40:11,226 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@6ac4cfc6 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:40:11,237 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:40:11,239 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:40:27,262 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:40:27,266 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:40:27,270 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:40:27,271 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@5c8b7e20 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:40:27,274 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@44da0f1 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:40:27,278 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@66ff161a (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:40:27,276 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:40:27,290 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:40:27,291 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:40:49,280 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:40:49,281 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:40:49,286 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:40:49,288 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@31e034ef (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:40:49,292 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@475d6a79 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:40:49,305 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:40:49,297 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@3336a4b1 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:40:49,311 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:40:49,311 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:45:19,518 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:45:19,520 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:45:19,524 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:45:19,532 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@10ca816d (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:45:19,532 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@52e071e8 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:45:19,537 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:45:19,539 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@7b90988b (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:45:19,540 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:45:19,546 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:45:45,051 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:45:45,056 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:45:45,056 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:45:45,058 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@79d1ceae (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:45:45,065 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@22d93dd6 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:45:45,064 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@20b806ea (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:45:45,067 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:45:45,076 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:45:45,079 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:46:30,974 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:46:30,977 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:46:30,980 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:46:30,981 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@72fb0e11 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:46:30,983 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@412fbd80 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:46:30,984 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:46:30,988 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@3bbc0984 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:46:30,987 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:46:30,998 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:48:03,275 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:48:03,278 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:48:03,282 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:48:03,283 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@520a6cca (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:48:03,284 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@16ebf189 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:48:03,288 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@732081d3 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:48:03,287 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:48:03,303 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:48:03,290 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:48:43,131 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:48:43,138 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:48:43,139 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:48:43,139 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@20d6cc5e (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:48:43,145 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:48:43,148 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@27e45f14 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:48:43,147 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@4b199165 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:48:43,158 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:48:43,164 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:48:59,727 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:48:59,730 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:48:59,827 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@1f0ba1dc (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:48:59,841 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@6bf797e2 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:48:59,831 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:48:59,860 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:48:59,846 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:48:59,876 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@7483f4c3 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:48:59,884 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:49:32,666 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:49:32,675 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:49:32,678 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:49:32,676 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@1563baff (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:49:32,684 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:49:32,684 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@559cffd6 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:49:32,688 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@447eaa46 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:49:32,696 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:49:32,704 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:50:07,941 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:50:07,946 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:50:07,951 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@6351035e (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:50:07,950 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:50:07,955 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:50:07,962 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@26c5d9fe (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:50:07,956 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@61fbd2a (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:50:07,973 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:50:07,978 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:51:12,942 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:51:12,946 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:51:12,947 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:51:12,960 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@633ac690 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:51:12,955 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@50e0343e (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:51:12,968 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@6d68cf4f (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:51:12,968 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:51:12,980 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:51:12,971 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:52:08,494 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:52:08,495 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:52:08,499 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:52:08,504 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@718a768 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:52:08,507 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:52:08,507 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@523fc18 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:52:08,511 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@60223d4e (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:52:08,523 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:52:08,528 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:52:37,629 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:52:37,637 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:52:37,639 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@621a7505 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:52:37,644 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:52:37,645 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:52:37,645 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@37a4b008 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:52:37,657 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:52:37,660 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@2627a2e7 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:52:37,673 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:52:41,136 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:52:41,141 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:52:41,142 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@f231284 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:52:41,144 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:52:41,144 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:52:41,149 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@1d27e76c (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:52:41,151 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@d25645f (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:52:41,160 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:52:41,163 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:53:35,559 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:53:35,572 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:53:35,582 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@27ae8bc6 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:53:35,582 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@1540d7e7 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:53:35,588 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:53:35,592 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:53:35,596 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:53:35,610 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@64f47ba6 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:53:35,616 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:53:39,474 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:53:39,479 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:53:39,483 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:53:39,481 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@79354120 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:53:39,487 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:53:39,490 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@5ab8f640 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:53:39,489 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@11721555 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:53:39,498 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:53:39,501 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:53:53,093 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:53:53,095 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:53:53,098 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:53:53,099 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@6c3c9423 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:53:53,100 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@6e153a9b (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:53:53,102 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:53:53,106 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@7c66f22a (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:53:53,106 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:53:53,119 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:53:55,234 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:53:55,241 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:53:55,244 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:53:55,241 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@4ad8f682 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:53:55,249 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@4c9e71a0 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:53:55,251 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:53:55,254 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:53:55,255 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@4bc609af (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:53:55,267 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:58:24,819 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:58:24,822 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:58:24,826 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 18:58:24,828 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@2e6e59fd (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 18:58:24,829 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@7e5bf1e3 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 18:58:24,831 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@cc4d927 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 18:58:24,831 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:58:24,836 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:58:24,845 INFO [wfs.json] - about to encode JSON
+2020-01-09 18:58:46,869 INFO [geoserver.security] - Strong cryptography is available
+2020-01-09 19:06:28,553 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:06:28,553 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:06:28,557 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:06:28,560 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@6897c98e (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:06:28,563 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:06:28,563 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@6d1406f5 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:06:28,568 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:06:28,563 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@f264bfc (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:06:28,580 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:06:30,090 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:06:30,095 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:06:30,097 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@359626d7 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:06:30,097 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:06:30,100 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:06:30,105 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@51bd28d4 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:06:30,106 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@6ba5fece (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:06:30,111 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:06:30,113 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:07:36,635 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:07:36,640 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:07:36,644 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:07:36,642 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@166a4eb1 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:07:36,651 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@71edd267 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:07:36,651 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@68b83012 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:07:36,655 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:07:36,660 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:07:36,663 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:07:37,702 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:07:37,709 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@43b7590f (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:07:37,709 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:07:37,711 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:07:37,717 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:07:37,719 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@10b4c0e3 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:07:37,728 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:07:37,729 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@656a59d6 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:07:37,740 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:08:00,921 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:08:00,926 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:08:00,928 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@4fdc1fdc (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:08:00,929 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:08:00,930 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:08:00,935 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@52b01159 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:08:00,938 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@2bc51d9d (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:08:00,946 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:08:00,951 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:08:01,984 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:08:01,988 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:08:01,990 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@721701a2 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:08:01,990 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:08:01,993 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:08:01,994 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@64294870 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:08:01,998 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:08:01,998 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@563797ec (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:08:02,010 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:08:35,907 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:08:35,914 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:08:35,919 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@5cd28021 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:08:35,923 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:08:35,923 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:08:35,925 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@31d1f752 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:08:35,931 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@7a49a58e (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:08:35,937 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:08:35,939 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:09:12,588 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:09:12,593 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:09:12,600 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:09:12,596 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@5fd1daf0 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:09:12,605 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@5a0148e8 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:09:12,612 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:09:12,610 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@797d198e (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:09:12,613 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:09:12,622 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:12:45,354 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:12:45,358 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:12:45,361 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:12:45,364 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@2b0d4a9d (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:12:45,370 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@2dac1591 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:12:45,366 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@2389dc5 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:12:45,377 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:12:45,384 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:12:45,386 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:12:47,418 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:12:47,426 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@616de128 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:12:47,427 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:12:47,430 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:12:47,432 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:12:47,437 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@7b971bce (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:12:47,446 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@641c7eb4 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:12:47,448 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:12:47,456 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:13:38,239 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:13:38,243 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:13:38,246 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:13:38,247 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@3884f7ae (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:13:38,251 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@516f590 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:13:38,253 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:13:38,251 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@21bec215 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:13:38,261 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:13:38,264 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:13:53,599 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:13:53,605 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:13:53,607 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@32438aa6 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:13:53,610 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:13:53,611 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:13:53,615 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@794eb733 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:13:53,613 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@10fa9a3b (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:13:53,621 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:13:53,626 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:14:09,478 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:14:09,484 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:14:09,484 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@30aac17d (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:14:09,487 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:14:09,487 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:14:09,489 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@2f2beb75 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:14:09,493 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@146d03ea (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:14:09,496 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:14:09,508 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:20:31,144 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:20:31,147 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:20:31,151 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:20:31,151 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@61a296ed (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:20:31,153 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@1a879eaa (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:20:31,155 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:20:31,157 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:20:31,157 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@48d1880b (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:20:31,169 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:46:07,327 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:46:07,329 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:46:07,332 INFO [geoserver.wfs] - 
+Request: getServiceInfo
+2020-01-09 19:46:07,336 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPLOS}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@5fa85fb4 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}roads_PLOS-computed]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}roads_PLOS-computed
+        srsName = EPSG:3857
+2020-01-09 19:46:07,337 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadPoints}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@4b935a09 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}points_street_matched]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}points_street_matched
+        srsName = EPSG:3857
+2020-01-09 19:46:07,344 INFO [geoserver.wfs] - 
+Request: getFeature
+    service = WFS
+    version = 2.0.0
+    baseUrl = http://localhost:3333/geoserver/
+    outputFormat = text/javascript
+    resolve = none
+    resolveDepth = *
+    resolveTimeout = 300
+    resultType = results
+    formatOptions = {CALLBACK=loadRoads}
+    abstractQueryExpressionGroup[0] = wfs:abstractQueryExpression=net.opengis.wfs20.impl.QueryTypeImpl@42c4f5c2 (handle: null) (abstractProjectionClause: null, abstractSelectionClause: null, abstractSortingClause: null, aliases: null, typeNames: [{http://localhost:3333/geoserver/gislab}niguarda_roads]) (featureVersion: null, srsName: EPSG:3857, filter: null, propertyNames: null, sortBy: null)
+    abstractQueryExpression[0]:
+        typeNames[0] = {http://localhost:3333/geoserver/gislab}niguarda_roads
+        srsName = EPSG:3857
+2020-01-09 19:46:07,342 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:46:07,359 INFO [wfs.json] - about to encode JSON
+2020-01-09 19:46:07,357 INFO [wfs.json] - about to encode JSON
+2020-01-09 20:10:59,685 INFO [georss.GeoRSSPoller] - destroy() invoked
+2020-01-09 20:10:59,701 INFO [geowebcache.GeoWebCacheDispatcher] - GeoWebCacheDispatcher.destroy() was invoked, shutting down.
+2020-01-09 20:10:59,701 INFO [diskquota.DiskQuotaMonitor] - Disk quota monitor shutting down...
+2020-01-09 20:10:59,701 INFO [diskquota.DiskQuotaMonitor] - Shutting down quota usage monitor...
+2020-01-09 20:10:59,701 INFO [diskquota.QuotaUpdatesMonitor] - Shutting down quota usage monitor...
+2020-01-09 20:10:59,716 INFO [diskquota.DiskQuotaMonitor] - Shutting down quota statistics gathering monitor...
+2020-01-09 20:10:59,716 INFO [diskquota.QueuedQuotaUpdatesConsumer] - Shutting down quota update background task due to InterruptedException
+2020-01-09 20:10:59,732 INFO [diskquota.QueuedUsageStatsConsumer] - Shutting down quota update background task due to interrupted exception
+2020-01-09 20:10:59,732 INFO [seed.SeederThreadPoolExecutor] - Initiating shut down for running and pending seed tasks...
+2020-01-09 20:10:59,732 INFO [seed.SeederThreadPoolExecutor] - Seeder thread pool executor shut down complete.
+2020-01-09 20:10:59,732 INFO [storage.DefaultStorageBroker] - Destroying StorageBroker

@@ -161,11 +161,11 @@ var points = new ol.layer.Vector({
     visible: true,
     style: new ol.style.Style({
         image: new ol.style.Circle({
-            radius: 4,
+            radius: 3,
             fill: null,
             stroke: new ol.style.Stroke({
                 color: 'rgba(255,0,0,0.9)',
-                width: 1
+                width: 2
             })
         })
     })
@@ -219,12 +219,52 @@ var map = new ol.Map({
 
 });
 
+var elementPopup = document.getElementById('popup');
+var popup = new ol.Overlay({
+element: elementPopup
+});
+map.addOverlay(popup);
+
 
 var layerSwitcher = new ol.control.LayerSwitcher({
     groupSelectStyle : 'none'
 });
 map.addControl(layerSwitcher);
 
+
+
+map.on('click', function(event) {
+    var feature = map.forEachFeatureAtPixel(event.pixel, function(feature, layer) {
+        return feature;
+    });
+    if (feature != null) {
+        var pixel = event.pixel;
+        var coord = map.getCoordinateFromPixel(pixel);
+        popup.setPosition(coord);
+        if(feature.get('plos') != null){
+            $(elementPopup).attr('title', 'Info');
+            $(elementPopup).attr('data-content', '<b>Id: </b>' + feature.get('sourceid') +'</br><b>road: </b>' + feature.get('roadname') +'</br><b>PLOS: </b>' + feature.get('plos')+'</br><b>PLOS_E: </b>' + feature.get('plos_e'));
+        } else if(feature.get('2_Data_Typ') != null){
+            $(elementPopup).attr('title', 'Info');
+            $(elementPopup).attr('data-content', '<b>Id: </b>' + feature.get('sourceid') +'</br><b>Lat: </b>' + feature.get('lat_1_Coor') +'</br><b>Lon: </b>' + feature.get('long_1_Coo') +'</br><b>Type: </b>' + feature.get('2_Data_Typ')+'</br><b>Value: </b>' + feature.get('3_Value'));
+        } else {
+            $(elementPopup).attr('title', 'Info');
+            $(elementPopup).attr('data-content', '<b>Id: </b>' + feature.get('sourceid') +'</br><b>road: </b>' + feature.get('roadname'));    
+        }
+        $(elementPopup).popover({'placement': 'top', 'html': true});
+        $(elementPopup).popover('show');
+    }
+});
+
+map.on('pointermove', function(event) {
+    if (event.dragging) {
+        $(elementPopup).popover('destroy');
+        return;
+    }
+    var pixel = map.getEventPixel(event.originalEvent);
+    var hit = map.hasFeatureAtPixel(pixel);
+    map.getTarget().style.cursor = hit ? 'pointer' : '';
+});
 
 
 

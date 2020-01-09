@@ -37,6 +37,11 @@
     font-size: 13px;
 }
 
+.popover {
+    width: 200px;
+    height: auto;
+}
+
 .panel > ul{
    padding-top: 1em; 
 }
