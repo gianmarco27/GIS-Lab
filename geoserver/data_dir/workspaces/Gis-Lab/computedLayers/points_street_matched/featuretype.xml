@@ -21,7 +21,7 @@
     AXIS[&quot;Geodetic longitude&quot;, EAST], &#xd;
     AXIS[&quot;Geodetic latitude&quot;, NORTH], &#xd;
     AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]], &#xd;
-  PROJECTION[&quot;Transverse_Mercator&quot;], &#xd;
+  PROJECTION[&quot;Transverse_Mercator&quot;, AUTHORITY[&quot;EPSG&quot;,&quot;9807&quot;]], &#xd;
   PARAMETER[&quot;central_meridian&quot;, 9.0], &#xd;
   PARAMETER[&quot;latitude_of_origin&quot;, 0.0], &#xd;
   PARAMETER[&quot;scale_factor&quot;, 0.9996], &#xd;
@@ -31,7 +31,7 @@
   AXIS[&quot;Easting&quot;, EAST], &#xd;
   AXIS[&quot;Northing&quot;, NORTH], &#xd;
   AUTHORITY[&quot;EPSG&quot;,&quot;32632&quot;]]</nativeCRS>
-  <srs>EPSG:32632</srs>
+  <srs>EPSG:3857</srs>
   <nativeBoundingBox>
     <minx>514607.0</minx>
     <maxx>515126.0</maxx>
@@ -46,7 +46,7 @@
     <maxy>45.51783560026579</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <store class="dataStore">
     <id>DataStoreInfoImpl-54cb3d6:16f763e1ae9:-7ffe</id>

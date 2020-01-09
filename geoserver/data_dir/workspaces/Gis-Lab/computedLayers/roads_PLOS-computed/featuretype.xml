@@ -30,7 +30,7 @@
   AXIS[&quot;Easting&quot;, EAST], &#xd;
   AXIS[&quot;Northing&quot;, NORTH], &#xd;
   AUTHORITY[&quot;EPSG&quot;,&quot;32632&quot;]]</nativeCRS>
-  <srs>EPSG:32632</srs>
+  <srs>EPSG:3857</srs>
   <nativeBoundingBox>
     <minx>514600.63422608183</minx>
     <maxx>515129.71656385745</maxx>
@@ -45,7 +45,7 @@
     <maxy>45.51794390281488</maxy>
     <crs>EPSG:4326</crs>
   </latLonBoundingBox>
-  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <projectionPolicy>REPROJECT_TO_DECLARED</projectionPolicy>
   <enabled>true</enabled>
   <store class="dataStore">
     <id>DataStoreInfoImpl-54cb3d6:16f763e1ae9:-7ffe</id>
