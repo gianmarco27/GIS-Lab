@@ -3,9 +3,12 @@
 Commands to run to start geoserver
 
 open a command prompt in the repository folder
+
 <code>
 set GEOSERVER_HOME=[path to current repo]\geoserver
+    
 set GEOSERVER_DATA_DIR=[path to current repo]\geoserver\data_dir
+
 geoserver\bin\startup
 </code>
 
