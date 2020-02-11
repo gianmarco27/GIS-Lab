@@ -201,7 +201,10 @@ var map = new ol.Map({
             title: 'Roads',
             layers: [roadlinks, plos, plos_E]
         }),
-        points
+        new ol.layer.Group({
+            title: 'Points',
+            layers: [points]
+        })
     ],
     view: new ol.View({
         center: ol.proj.fromLonLat([9.190561,45.516172]),
