@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/gianmarco27/GIS-Lab#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.18.2"
   }
 }
